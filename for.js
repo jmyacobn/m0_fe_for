@@ -11,7 +11,9 @@ for(var i=26; i<75; i+=2){
 // Use a for statement to log to the console a complete sentence stating the weather using the Array below:
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
-
+for (var i = 0; i < weather_options.length; i++) {
+  console.log("Today's weather is " + weather_options[i]+".");
+}
 
 // Challenge 3
 // Use a for statement to log to the console only the words that are exactly 3 characters in length
